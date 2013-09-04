@@ -1,0 +1,543 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+body {
+	background-color: #fafafa;
+	font-family: 'Oswald', sans-serif;
+	background-image: url(../img/fondo.jpg);
+}
+
+fondo {
+	background-color:#FFF
+}
+
+#header_main {
+	
+	margin-top:20px;
+}
+
+
+/********************************************************************menu principal  */
+
+#menu_main  {
+	margin-top: 10px;
+	background-color: #FF6600;
+	color: #FFF;
+	line-height: 32px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 100; 
+}
+#menu_main  ul, li {
+	list-style-type: none;
+	text-align: center;
+}
+#menu_main   ul {
+  	margin: auto;
+}
+#menu_main   li {
+	float: left;
+	width:16%;
+}
+#menu_main  a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #fff;
+	margin-left: 22px;
+	display: block;
+	padding: 10px 5px;
+	text-align: center;
+	font-weight: bolder;
+}
+#menu_main  a:hover {
+	background-color: #F90;
+
+}
+
+
+
+/********************************************************************menu principal  */
+
+#menu_main  {
+	margin-top: 10px;
+	background-color: #FF6600;
+	color: #FFF;
+	line-height: 32px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 100; 
+}
+#menu_main  ul, li {
+	list-style-type: none;
+	text-align: center;
+}
+#menu_main   ul {
+  	margin: auto;
+}
+#menu_main   li {
+	float: left;
+	width:16%;
+}
+#menu_main  a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #fff;
+	margin-left: 22px;
+	display: block;
+	padding: 5px 0px;
+	text-align: center;
+	font-weight: normal;
+}
+#menu_main  a:hover {
+	background-color: #F90;
+
+}
+
+
+/********************************************************************boton ruta  */
+
+
+
+.boton_ruta {
+	-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family: 'Oswald', sans-serif;
+	font-size:16px;
+	padding:8px 8px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}.boton_ruta:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}.boton_ruta:active {
+	position:relative;
+	top:1px;
+}
+
+#menu_ruta {
+	margin-top: 1px;
+	
+}
+
+
+
+#menu_ruta   li {
+	float: left;
+	
+}
+
+
+/********************************************************************galeria y main  */
+
+#gallery {
+	height: 400px;
+	width: 100%;
+	
+}
+
+
+#contenido_principal {
+	background:#EAEAEA
+	
+}
+
+#main_info {
+	
+	margin-top:10px;
+	text-align:center;
+	margin-bottom:10px;
+	
+}
+
+#main_info header {
+	font-size: 42px;
+	
+	font-family: 'Oswald', sans-serif;
+	color: #09F;
+}
+
+#main_info p {
+	font-size: 32px;
+	font-family: 'Oswald', sans-serif;
+	color: #6C6;
+	
+	
+}
+
+#main_info h6 {
+	font-family: 'Oswald', sans-serif;
+	color: #F60;
+	font-weight: 100;
+	}
+
+#contenido_secundario {
+	
+	background-color:#E2E2E2;
+	height:250px;
+	margin-bottom:
+	
+/********************************************************************quienes somos  */	
+	
+}
+
+#quienes header {
+	font-size: 32px;
+	background_color:#CCC;
+	font-family: 'Oswald', sans-serif;
+	color: #F30;
+	margin-top:10px;
+	
+}
+
+#quienes p {
+	font-size: 13px;
+	font-family: 'Oswald', sans-serif;
+	color: #333;
+	font-weight: 100;
+	text-align: justify;
+}
+/********************************************************************facebook  */
+#facebook header {
+	margin-top:10px;
+	font-size: 26px;
+	background_color:#CCC;
+	font-family: 'Oswald', sans-serif;
+	color:#09F;
+}
+
+/********************************************************************pie  */
+
+#pie {
+	
+	background:#666;
+	margin-bottom:40px;
+}
+
+#pie p {
+	
+	margin-top:45px;
+	color:#FFF;
+	line-height:1px;
+	text-align:center;
+}
+#pie img  {
+	
+	padding:15px 15px 15px 15px;
+	
+}
+
+/********************************************************************info_ruta  */
+
+
+
+#umapper {
+	
+	margin-left:10px;	
+}
+	
+	
+#info_ruta	{
+	
+	background-color:#EAEAEA;
+	padding-bottom:50px;
+	
+}
+
+#info_ruta header	{
+	
+	font-size: 42px;
+	margin-top:10px;
+	font-family: 'Oswald', sans-serif;
+	color: #09F;
+	
+}
+
+#info_ruta h2 {
+	font-size: 18px;
+	font-family: 'Oswald', sans-serif;
+	color: #6C6;
+}
+
+#info_ruta p a {
+	
+	text_decoration:none;
+}
+
+#info_rutas p {
+	
+	color:#333}
+
+#texto_rutas p {
+	text-align:justify;
+	font-weight: normal;
+	margin-top: 10px;
+	color: #666;
+	font-family: Arial, Helvetica, sans-serif;
+		
+
+
+}
+
+
+/********************************************************************texto_ruta  */
+
+#texto_rutas {
+	
+	
+}
+
+#texto_rutas  ul, li {
+	list-style-type: none;
+	color: #33CCD6;
+	
+}
+#texto_rutas   ul {
+  	margin: auto;
+	font-family: 'Oswald', sans-serif;
+}
+#texto_rutas   li {
+	
+	text-align:left;
+	
+}
+
+#texto_rutas   a {
+	
+	text-decoration: none;
+	
+}
+
+
+/********************************************************************arriendo  */
+
+#contenido_principal #arriendo header {
+	font-family: 'Oswald', sans-serif;
+	color:#3CC
+}
+
+#contenido_principal #arriendo h1 {
+	font-family: 'Oswald', sans-serif;
+	color:#666;
+	font-size:21px
+}
+
+#contenido_principal #arriendo h2 {
+	font-family: 'Oswald', sans-serif;
+	color: #F60;
+	font-size: 16px;
+	font-style:bold;
+	
+	
+}
+
+#contenido_principal #arriendo h3 {
+	font-family: 'Oswald', sans-serif;
+	color:#666;
+}
+
+#contenido_principal #arriendo h4 {
+	
+	font-family: 'Oswald', sans-serif;
+	color:#6C6;
+	
+	}	
+	
+		
+#contenido_principal #arriendo h5 {
+	
+	font-family: 'Oswald', sans-serif;
+}
+
+#contenido_principal #arriendo h2{
+	
+	color:#333}
+	
+#contenido_principal li {
+	text-align:left;
+}
+
+#contenido_principal #ficha li {
+	font-family: 'Oswald', sans-serif;
+	color:#333
+}
+
+/********************************************************************contacto  */
+
+
+#contacto header {
+
+font-size: 42px;
+	margin-top:10px;
+	font-family: 'Oswald', sans-serif;
+	color: #09F;	
+	
+}
+
+input, textarea {  
+    padding: 9px;  
+    border: solid 1px #E5E5E5;  
+    outline: 0;  
+    font-family: 'Oswald', sans-serif; 
+    width: 200px;  
+    background: #FFFFFF;  
+    }  
+textarea {  
+    width: 400px;  
+    max-width: 400px;  
+    height: 150px;  
+    line-height: 150%;  
+    }  
+input:hover, textarea:hover,  
+input:focus, textarea:focus {  
+    border-color: #C9C9C9;  
+    }  
+.form label {  
+    margin-left: 10px;  
+    color: #999999;  
+    }  
+.submit input {  
+    width: auto;  
+    padding: 9px 15px;  
+    background: #617798;  
+    border: 0;  
+    font-size: 14px;  
+    color: #FFFFFF;  
+    }  
+
+
+
+
+
+/********************************************************************palabras  */
+
+
+
+
+.valpaiso {
+	color: #0CC;
+}
+.valparaisotorpederas {
+	color: #3CC;
+}
+.concon {
+	color: #F60;
+}
+.renaca {
+	color: #FC0;
+}
+.baron {
+	color: #0CF;
+}
+.puerto {
+	color: #66F;
+}
+.vina {
+	color: #666;
+}
+.vina {
+	color: #666;
+}
+.vina {
+	color: #F30;
+}
+.concon {
+	color: #F90;
+}
+.renaca {
+	color: #F00;
+}
+.valpo {
+	color: #6CC;
+}
+.puerto {
+	color: #39F;
+}
+.torpederas {
+	color: #66F;
+}
+#info_ruta #texto_rutas ul li .valor {
+	color: #F30;
+	font-size: 16px;
+	font-weight: bold;
+}
+#info_ruta #texto_rutas ul li .lugares {
+	color: #666;
+}
+#info_ruta #texto_rutas ul li .itinerario {
+	color: #39F;
+}
+#info_ruta #texto_rutas ul li .tiempo {
+	color: #6C6;
+}
+
+#info_ruta #texto_rutas ul li a:hover {
+	color: #666666;
+
+}
+
+
+
+
+
+
+
+
+
+#s3slider {
+    width: 940px; /* important to be same as image width */
+    height: 400px; /* important to be same as image height */
+    position: relative; /* important */
+    overflow: hidden; /* important */
+}
+ 
+#s3sliderContent {
+    width: 940px; /* important to be same as image width or wider */
+    position: absolute; /* important */
+    top: 0; /* important */
+    margin-left: 0; /* important */
+}
+ 
+.s3sliderImage {
+    float: left; /* important */
+    position: relative; /* important */
+    display: none; /* important */
+}
+ 
+.s3sliderImage span {
+    position: absolute; /* important */
+    left: 0;
+    font: 10px/15px 'Oswald', sans-serif;
+    padding: 10px 13px;
+    width: 940px;
+    background-color: #000;
+    filter: alpha(opacity=100); /* here you can set the opacity of box with text */
+    -moz-opacity: 0.5; /* here you can set the opacity of box with text */
+    -khtml-opacity: 0.5; /* here you can set the opacity of box with text */
+    opacity: 0.5; /* here you can set the opacity of box with text */
+    color: #fff;
+    display: none; /* important */
+    bottom: 0; /*
+        if you put top: 0;  -> the box with text will be shown 
+                                at the top of the image
+        if you put bottom: 0;  -> the box with text will be shown 
+                                at the bottom of the image
+    */
+}
+ 
+.clear {
+    clear: both;
+}
