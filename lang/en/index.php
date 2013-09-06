@@ -24,10 +24,10 @@
             <div class='container'>
                 <div class="col-md-12">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-xs-4 col-md-6">
                             <img src="/img/weblogo.png" class="img-responsive" alt="Logo Bicitour" />
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-xs-8 col-md-6">
                             <img src="/img/bannertop.png" class="img-responsive" alt="Enjoy tours in Valparaiso Region"/>
                         </div>
                     </div>
@@ -38,37 +38,39 @@
             <div class="row">
                 <div class="col-md-12">
                     <header class='navbar'>
-                        <div class="navbar-header">
-                            <button class="navbar-toggle btn" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a href="../" class="navbar-brand">Bicitours</a>
-                        </div>
-                        <nav class='collapse navbar-collapse bs-navbar-collapse'>
-                            <ul class="nav navbar-nav">
-                                <li>
-                                    <a href="#">Bicitours</a>
-                                </li>
-                                <li>
-                                    <a href="#">Tours</a>
-                                </li>
-                                <li>
-                                    <a href="#">Rent</a>
-                                </li>
-                                <li class="active">
-                                    <a href="#">Bike sells</a>
-                                </li>
-                                <li>
-                                    <a href="#">Reservation</a>
-                                </li>
-                                <li class="disabled">
-                                    <a href="#">Contact us</a>
-                                </li>
+                        <nav class='navbar-default'>
+                            <div class="navbar-header">
+                                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a href="../" class="navbar-brand">Bicitours</a>
+                            </div>
+                            <div class="collapse navbar-collapse bs-navbar-collapse">
+                                <ul class="nav navbar-nav">
+                                    <li>
+                                        <a href="#">Bicitours</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Tours</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Rent</a>
+                                    </li>
+                                    <li class="active">
+                                        <a href="#">Bike sells</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Reservation</a>
+                                    </li>
+                                    <li class="disabled">
+                                        <a href="#">Contact us</a>
+                                    </li>
 
-                            </ul>
+                                </ul>
+                            </div>
                         </nav>
                     </header>
                     <div class="carousel slide" id="carousel-464101">
@@ -116,27 +118,47 @@
                             </div>
                         </div> <a data-slide="prev" href="#carousel-464101" class="left carousel-control">‹</a> <a data-slide="next" href="#carousel-464101" class="right carousel-control">›</a>
                     </div>
-                    <h3>
-                        h3. Lorem ipsum dolor sit amet.
-                    </h3>
+                    <h1 class="text-center lightblue">
+                        Enjoy cycling tourism in the region of Valparaíso
+                    </h1>
+                    <h3 class="text-center lightgreen">Our tours include</h3>
                     <div class="row">
-                        <div class="col-xs-6 col-sm-3 text-center">
-                            <img src="/img/bike1.png" class="img-thumbnail img-responsive ">
-                            <h6>Mountain Bike</h6>
-                        </div>
-                        <div class="col-xs-6 col-sm-3 text-center">
-                            <img src="/img/casco.png" class="img-thumbnail img-responsive">
-                            <h6>Helmet</h6>
-                        </div>
-                        <div class="col-xs-6 col-sm-3 text-center">
-                            <img src="/img/botella.png" class="img-thumbnail img-responsive">
-                            <h6>Bottled water</h6>
-                        </div>
-                        <div class="col-xs-6 col-sm-3 text-center">
-                            <img src="/img/polera.png" class="img-thumbnail img-responsive">
-                            <h6>Bilingual Guide</h6>
+                        <div class="control-group">
+                            <div class="col-xs-6 col-sm-3 text-center">
+                                <div class="thumbnail">
+                                    <img src="/img/bike1.png" class="img-responsive ">
+                                    <div class="caption">
+                                        <h5 class="orange"><strong>Mountain Bike</strong></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-3 text-center">
+                                <div class="thumbnail">
+                                    <img src="/img/casco.png" class="img-responsive">
+                                    <div class="caption">
+                                        <h5 class="orange"><strong>Helmet</strong></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-3 text-center">
+                                <div class="thumbnail">
+                                    <img src="/img/botella.png" class="img-responsive">
+                                    <div class="caption">
+                                        <h5 class="orange"><strong>Bottled water</strong></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-3 text-center">
+                                <div class="thumbnail">
+                                    <img src="/img/polera.png" class="img-responsive">
+                                    <div class="caption">
+                                        <h5 class="orange"><strong>Bilingual Guide</strong></h5>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <div class="spacer-10"></div>
                     <article class="row">
                         <div class="col-md-6">
                             <p>
@@ -156,40 +178,18 @@
             <div class='container'>
                 <div class="col-md-12">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 text-center">
+                            <div class="spacer-25"></div>
                             <address> 
-                                <strong>Twitter, Inc.</strong><br /> 
-                                795 Folsom Ave, Suite 600<br /> 
-                                San Francisco, CA 94107<br /> 
-                                <abbr title="Phone">P:</abbr> (123) 456-7890
+                                <a href="tel:+56983332962" class="phone">+56 9 83332962</a> / <a href="tel:+56994094506"  class="phone">+56 9 94094506</a><br>
+                                <a href="mailto:contacto@bicitours.cl" class="email">contacto@bicitours.cl</a>
                             </address>
                         </div>
-                        <div class="col-md-6">
-                            <ul class="inline">
-                                <li>
-                                    Lorem ipsum dolor sit amet
-                                </li>
-                                <li>
-                                    Consectetur adipiscing elit
-                                </li>
-                                <li>
-                                    Integer molestie lorem at massa
-                                </li>
-                                <li>
-                                    Facilisis in pretium nisl aliquet
-                                </li>
-                                <li>
-                                    Nulla volutpat aliquam velit
-                                </li>
-                                <li>
-                                    Faucibus porta lacus fringilla vel
-                                </li>
-                                <li>
-                                    Aenean sit amet erat nunc
-                                </li>
-                                <li>
-                                    Eget porttitor lorem
-                                </li>
+                        <div class="col-md-6 text-center">
+                            <ul class="list-inline">
+                                <li><img src="/img/bici.png" class="img-responsive"></li>
+                                <li><img src="/img/trip.png" class="img-responsive"></li>
+                                <li><img src="/img/chile.png" class="img-responsive"></li>
                             </ul>
                         </div>
                     </div>
