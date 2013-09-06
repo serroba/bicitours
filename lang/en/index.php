@@ -49,23 +49,20 @@
                                 <a href="../" class="navbar-brand">Bicitours</a>
                             </div>
                             <div class="collapse navbar-collapse bs-navbar-collapse">
-                                <ul class="nav navbar-nav">
+                                <ul class="nav nav-pills nav-justified">
                                     <li>
-                                        <a href="#">Bicitours</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Tours</a>
+                                        <a href="./tour-vina.php">Tours</a>
                                     </li>
                                     <li>
                                         <a href="#">Rent</a>
                                     </li>
-                                    <li class="active">
+                                    <li>
                                         <a href="#">Bike sells</a>
                                     </li>
                                     <li>
                                         <a href="#">Reservation</a>
                                     </li>
-                                    <li class="disabled">
+                                    <li>
                                         <a href="#">Contact us</a>
                                     </li>
 
@@ -178,8 +175,9 @@
             <div class='container'>
                 <div class="col-md-12">
                     <div class="row">
+                        <div class="spacer-25"></div>
                         <div class="col-md-6 text-center">
-                            <div class="spacer-25"></div>
+                            <div class="spacer-10"></div>
                             <address> 
                                 <a href="tel:+56983332962" class="phone">+56 9 83332962</a> / <a href="tel:+56994094506"  class="phone">+56 9 94094506</a><br>
                                 <a href="mailto:contacto@bicitours.cl" class="email">contacto@bicitours.cl</a>
