@@ -98,17 +98,28 @@
                                 <li class="list-group-item"><span class="red"><strong>Cost: $CLP 15.000</strong></span></li>
                                 <li class="list-group-item"><span class="lightgreen">Time: 4 to 5 Hrs app.</span></li>
                                 <li class="list-group-item"><span class="lightblue">Minimum 2 people</span></li>
-                                <li class="list-group-item">Casino Enjoy <a href class="cyan">+Info</a></li>
-                                <li class="list-group-item">Castillo Wulff<a class="cyan">+Info</a></li>
-                                <li class="list-group-item">Reloj de Flores<a class="cyan">+Info</a></li>
-                                <li class="list-group-item">Parroquia Viña<a class="cyan">+Info</a></li>
-                                <li class="list-group-item">Quinta Vergara<a class="cyan">+Info</a></li>
-                                <li class="list-group-item">Teatro municipal y Hotel O’higgins<a class="cyan">+Info</a></li>
-                                <li class="list-group-item">Palacio Carrasco - Museo Fonk<a class="cyan">+Info</a></li>
-                                <liclass="list-group-item">Palacio Rioja<a class="cyan"></a></li>
-                                <!--<li class="lightblue">Includes</li>-->
-                                
+                                <li class="list-group-item">Casino Enjoy <a href class="cyan" href="http://www.enjoy.cl/enjoy-vina-del-mar" target="new">+Info</a></li>
+                                <li class="list-group-item">Castillo Wulff <a class="cyan" href="http://www.fonoguiaviñadelmar.cl/patrimonio-cultural/palacios-y-castillos/castillo-wulff" target="new">+Info</a></li>
+                                <li class="list-group-item">Reloj de Flores <a class="cyan"href="http://www.chile.com/secciones/ver_seccion.php?id=107428" target="new">+Info</a></li>
+                                <li class="list-group-item">Parroquia Viña <a class="cyan" href="http://www.fonoguiaviñadelmar.cl/patrimonio-cultural/edificios-de-interes/parroquia-de-vina-del-mar-nuestra-senora-de-dolores" target="new">+Info</a></li>
+                                <li class="list-group-item">Quinta Vergara <a class="cyan" href="http://es.wikipedia.org/wiki/Quinta_Vergara" target="new">+Info</a></li>
+                                <li class="list-group-item">Teatro municipal y Hotel O’higgins <a class="cyan" href="http://www.fonoguiaviñadelmar.cl/patrimonio-cultural/edificios-de-interes/teatro-municipal" target="new">+Info</a></li>
+                                <li class="list-group-item">Palacio Carrasco - Museo Fonk <a class="cyan" href="http://www.museofonck.cl/" target="new">+Info</a></li>
+                                <li class="list-group-item">Palacio Rioja <a class="cyan" href="http://www.patrimoniovina.cl/index.php?ir=pags/det_espatr_rioja.php" target="new">+Info</a></li>
                             </ul>
+							<ul class="list-group">
+								<li class="list-group-item"><span class="lightblue"><strong>Includes</strong></span></li>
+								<li class="list-group-item"><span class="cyan">Mountain bike</span></li>
+								<li class="list-group-item"><span class="cyan">Bottled water</span></li>
+								<li class="list-group-item"><span class="cyan">Helmet</span></li>
+								<li class="list-group-item"><span class="cyan">Tour Guide (Spanish, English, Portuguese)</span></li>
+							</ul>
+							<ul class="list-group">
+								<li class="list-group-item"><span class="lightblue"><strong>Does Not include</strong></span></li>
+								<li class="list-group-item"><span class="cyan">Ticket to Palacio Rioja</span></li>
+								<li class="list-group-item"><span class="cyan">Ticket to Museo Fonk</span></li>
+								<li class="list-group-item"><span class="cyan">Tips for the tour guide</span></li>
+							</ul>
                         </div>
                     </article>
 
