@@ -13,10 +13,42 @@ body > section.container{
 section header ul{
 	margin-top:5px;
 }
+
+header.main-navbar .nav > li> a{
+	color: #fff;
+}
+header.main-navbar .nav > li> a:hover{
+	background-color: #F90;
+}
+header.main-navbar .navbar-default{
+	background-color: #F60;
+}
+header.main-navbar .navbar-default .navbar-brand{
+	color: white;
+	font-weight: bold;
+}
 .maps iframe{
 	height: 250px; 
 	width: 100%; 
 }
+.tour-description p{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.tour-description h3{
+	margin-left: 10px;
+}
+.routes-navbar a{
+	text-shadow: 1px 1px 0px #ffffff;
+}
+.routes-navbar a.vina{color: #777;}
+.routes-navbar a.concon{color: #f90;}
+.routes-navbar a.renaca{color: #f00;}
+.routes-navbar a.valparaiso{color: #6cc;}
+.routes-navbar a.puerto{color: #39f;}
+.routes-navbar a.torpederas{color: #66f;}
+.routes-navbar a.nocturno{color: #123456;}
+.routes-navbar a.laguna{color: #f06;}
 footer{
 	background-color: #666;
 }
@@ -34,6 +66,7 @@ address, address .email{
 }
 .orange{
 	color: #F60;
+	background-color: #F60;
 }
 .cyan{
 	color: #33CCD6;
@@ -65,6 +98,12 @@ address, address .email{
 @media (min-width: 992px) {
 	header.navbar{
 		padding: 0 15px;
+	}
+	.tour-description p{
+		margin-left: 0;
+	}
+	.tour-description h3{
+		margin-left: 0;
 	}
 }
 

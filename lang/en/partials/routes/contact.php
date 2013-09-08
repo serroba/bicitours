@@ -1,4 +1,4 @@
-<article class="row text-center routes">
+<article class="text-center routes">
     <div class="col-xs-12">
         <h2 class="lightblue">Routes</h2>
         <h3 class="lightgreen">Choose the routes you like the most</h3>

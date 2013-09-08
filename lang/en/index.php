@@ -20,56 +20,12 @@
 
     </head>
     <body>
-        <header class="row">
-            <div class='container'>
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-xs-4 col-md-6">
-                            <img src="/img/weblogo.png" class="img-responsive" alt="Logo Bicitour" />
-                        </div>
-                        <div class="col-xs-8 col-md-6">
-                            <img src="/img/bannertop.png" class="img-responsive" alt="Enjoy tours in Valparaiso Region"/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
+		
+        <?php include_once "partials/header.php"?>
         <section class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <header class='navbar'>
-                        <nav class='navbar-default'>
-                            <div class="navbar-header">
-                                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                                <a href="../" class="navbar-brand">Bicitours</a>
-                            </div>
-                            <div class="collapse navbar-collapse bs-navbar-collapse">
-                                <ul class="nav nav-pills nav-justified">
-                                    <li>
-                                        <a href="./tour-vina.php">Tours</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Rent</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Bike sells</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Reservation</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Contact us</a>
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </nav>
-                    </header>
+                    <?php include_once "partials/header-navbar.php"?>
                     <div class="carousel slide" id="carousel-464101">
                         <ol class="carousel-indicators">
                             <li class="active" data-slide-to="0" data-target="#carousel-464101">
