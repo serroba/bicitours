@@ -1,39 +1,45 @@
 body{
-  background-color: #fafafa;
+	background-color: #fafafa;
 }
-body > header{
-  background-color: #E0E0E0;
+body > header, body > section.container{
+	background-color: #E0E0E0;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+body > section.container{
+	border-radius: 5px;
+	margin: 20px auto;
+	padding: 20px 0;
 }
 section header ul{
-  margin-top:5px;
+	margin-top:5px;
 }
 .maps iframe{
-  height: 250px; 
-  width: 100%; 
+	height: 250px; 
+	width: 100%; 
 }
 footer{
-  background-color: #666;
+	background-color: #666;
 }
 address .phone, address .phone:visited{
-  color: #FF0066;
+	color: #FF0066;
 }
 address, address .email{
-  color: #fff;
+	color: #fff;
 }
 .lightblue{
-  color: #09F;
+	color: #09F;
 }
 .lightgreen{
-  color: #6C6;
+	color: #6C6;
 }
 .orange{
-  color: #F60;
+	color: #F60;
 }
 .cyan{
-  color: #33CCD6;
+	color: #33CCD6;
 }
 .red{
-  color: #F30;
+	color: #F30;
 }
 .spacer-5 { height: 5px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 .spacer-10 { height: 10px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
@@ -50,17 +56,24 @@ address, address .email{
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+	header.navbar{
+		padding: 0 10px;
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  
+	header.navbar{
+		padding: 0 15px;
+	}
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .maps iframe{
-    height: 350px; 
-  }
+	.maps iframe{
+		height: 350px; 
+	}
+	header.navbar{
+		padding: 0 20px;
+	}
 }

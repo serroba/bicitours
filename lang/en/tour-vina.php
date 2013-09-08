@@ -20,23 +20,19 @@
 
     </head>
     <body>
-        <header class="row">
-            <div class='container'>
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-xs-4 col-md-6">
-                            <img src="/img/weblogo.png" class="img-responsive" alt="Logo Bicitour" />
-                        </div>
-                        <div class="col-xs-8 col-md-6">
-                            <img src="/img/bannertop.png" class="img-responsive" alt="Enjoy tours in Valparaiso Region"/>
-                        </div>
-                    </div>
-                </div>
+        <header class="container">
+			<div class="row">
+				<div class="col-xs-4 col-md-6">
+					<img src="/img/weblogo.png" class="img-responsive" alt="Logo Bicitour" />
+				</div>
+				<div class="col-xs-8 col-md-6">
+					<img src="/img/bannertop.png" class="img-responsive" alt="Enjoy tours in Valparaiso Region"/>
+				</div>
             </div>
         </header>
         <section class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-xs-12">
                     <header class='navbar'>
                         <nav class='navbar-default'>
                             <div class="navbar-header">
@@ -75,9 +71,10 @@
                     </div>
                     <article class="row tour-description">
                         <div class="spacer-10"></div>
-                        <div class="col-xs-12 col-sm-6 col-md-offset-1">
+                        <div class="col-xs-12 col-sm-8 col-md-7 col-md-offset-1">
+							<div class="spacer-25"></div>
                             <img src="/img/vina.jpg" class="img-thumbnail img-responsive">
-                            <div class="spacer-10"></div>
+							<div class="spacer-25"></div>
                             <p>Starting from Casino Enjoy in Viña del Mar, the tour begins with a brief lesson on bicycle
                                 safe riding. After that, we will head south through Avenida Marina making our first stop in 
                                 the lovely Wulff castle, where we will be able to enjoy the beautiful sight of the so called 
@@ -123,33 +120,29 @@
                         </div>
                     </article>
 
-                    <?php require_once "partials/routes.php";?>
+					<?php require_once "partials/routes.php"; ?>
                 </div>
             </div>
         </section>
-        <footer class="row">
-            <div class='container'>
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="spacer-25"></div>
-                        <div class="col-md-6 text-center">
-                            <div class="spacer-10"></div>
-                            <address> 
-                                <a href="tel:+56983332962" class="phone">+56 9 83332962</a> / <a href="tel:+56994094506"  class="phone">+56 9 94094506</a><br>
-                                <a href="mailto:contacto@bicitours.cl" class="email">contacto@bicitours.cl</a>
-                            </address>
-                        </div>
-                        <div class="col-md-6 text-center">
-                            <ul class="list-inline">
-                                <li><img src="/img/bici.png" class="img-responsive"></li>
-                                <li><img src="/img/trip.png" class="img-responsive"></li>
-                                <li><img src="/img/chile.png" class="img-responsive"></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+		<footer class="container">
+			<div class="spacer-25"></div>
+			<div class="row">
+				<div class="col-md-6 text-center">
+					<div class="spacer-10"></div>
+					<address> 
+						<a href="tel:+56983332962" class="phone">+56 9 83332962</a> / <a href="tel:+56994094506"  class="phone">+56 9 94094506</a><br>
+						<a href="mailto:contacto@bicitours.cl" class="email">contacto@bicitours.cl</a>
+					</address>
+				</div>
+				<div class="col-md-6 text-center">
+					<ul class="list-inline">
+						<li><img src="/img/bici.png" class="img-responsive"></li>
+						<li><img src="/img/trip.png" class="img-responsive"></li>
+						<li><img src="/img/chile.png" class="img-responsive"></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
     </body>
 </html>
 <script src="/js/jquery.min.js"></script>
