@@ -7,7 +7,7 @@
 			</div>
 		</div>
 		<article class="tour-description">
-			<?php include_once "partials/routes/navbar.php";?>
+			<?php include_once "partials/routes/navbar.php"; ?>
 			<div class="col-xs-12 col-sm-8 col-md-7 col-md-offset-1">
 				<div class="spacer-25"></div>
 				<img src="/img/vina.jpg" class="img-thumbnail img-responsive">
@@ -15,16 +15,33 @@
 				<p>Starting from Casino Enjoy in Viña del Mar, the tour begins with a brief lesson on bicycle
 					safe riding. After that, we will head south through Avenida Marina making our first stop in 
 					the lovely Wulff castle, where we will be able to enjoy the beautiful sight of the so called 
-					“Garden City”. Carrying on with the route to the popular flower clock, located in the up skirts 
+					“Garden City”. </p>
+				<div class="text-center">
+					<img src="/img/tours/casino-vina.jpg" class="img-thumbnail img-responsive">
+					<img src="/img/tours/castillo-wulff.jpg" class="img-thumbnail img-responsive">
+				</div>
+				<div class="spacer-10"></div>
+				<p>Carrying on with the route to the popular flower clock, located in the up skirts 
 					of Castillo hill. Then, going through Avenida Álvarez, we will find the oldest parish church 
 					in Viña del Mar, this is located very close to our next stop, the famous Quinta Vergara, 
 					known for it’s “Festival de la canción” (international singing contest) and it’s beautiful 
 					Neogothic/Venecian styled palace.  Following the route to the Municipal Theatre and to the 
 					famous O’Higgins Hotel. After that, we will head northeast to the Rioja Palace, declared 
 					historical monument in 1985 and currently used as a Museum for Decorative Art and Music 
-					Conservatory. Finally we end our route in the small Fonk Museum with the country’s flora 
+					Conservatory.</p> 
+				<div class="text-center">
+					<img src="/img/tours/palacio-carrasco.jpg" class="img-thumbnail img-responsive">
+					<img src="/img/tours/palacio-rioja.jpg" class="img-thumbnail img-responsive">
+				</div>
+				<div class="spacer-10"></div>
+				<p>Finally we end our route in the small Fonk Museum with the country’s flora 
 					and fauna; as well as the Carrasco Palace, current headquarters of the Culture Center in 
 					Viña del Mar, Municipal Library and Historical Archive of the city.</p>
+				<div class="text-center">
+					<h4><span class="lightblue">Tours Schedule Start :</span></h4>
+					<p><span class="red">9:30 am. • 16:00 pm.</span><sup>*</sup></p>
+					<p>* Schedules can be re-arranged.</p>
+				</div>
 			</div>
 			<div class="col-xs-12 col-sm-4 col-md-4">
 				<h3>Itinerary</h3>
