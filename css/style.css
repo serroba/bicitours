@@ -35,6 +35,9 @@ article.tour-description{
 	padding: 45px 15px 15px;
 	overflow: hidden;
 }
+.tour-description h1{
+	text-shadow: white 0.1em 0.1em 0.2em;
+}
 .tour-description p{
 	margin-left: 10px;
 	margin-right: 10px;

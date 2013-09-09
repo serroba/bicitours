@@ -22,7 +22,19 @@
     </head>
     <body>
         <?php include_once "partials/header.php" ?>
-        <?php include_once "partials/routes/vina.php"?>
+        <?php
+			switch ($_GET['t']) {
+				case 'vina':
+					include_once "partials/routes/vina.php";
+					break;
+				case 'concon':
+					include_once "partials/routes/concon.php";
+					break;
+				default:
+					include_once "partials/routes/vina.php";
+					break;
+			}
+		?>
 		<?php include_once "partials/footer.php"?>
     </body>
 </html>

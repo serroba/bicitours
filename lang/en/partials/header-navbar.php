@@ -11,8 +11,8 @@
 		</div>
 		<div class="collapse navbar-collapse bs-navbar-collapse orange">
 			<ul class="nav nav-pills nav-justified">
-				<li <?php if(preg_match('/tour-.*?.php/', $_SERVER['SCRIPT_NAME'])) echo "class='active'"?>>
-					<a href="tour-vina.php">Tours</a>
+				<li <?php if(preg_match('/tours.php/', $_SERVER['SCRIPT_NAME'])) echo "class='active'"?>>
+					<a href="tours.php">Tours</a>
 				</li>
 				<li>
 					<a href="#">Rent</a>

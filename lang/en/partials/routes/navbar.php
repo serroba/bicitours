@@ -12,10 +12,10 @@
 		<div class="collapse navbar-collapse tour-navbar-collapse">
 			<ul class="nav nav-pills nav-justified">
 				<li>
-					<a href="tour-vina.php" class="vina" title="Viña del Mar">Viña del Mar</a>
+					<a href="tours.php?t=vina" class="vina" title="Viña del Mar">Viña del Mar</a>
 				</li>
 				<li>
-					<a href="tour-concon.php" class="concon" title="Concón">Concón</a>
+					<a href="tours.php?t=concon" class="concon" title="Concón">Concón</a>
 				</li>
 				<li>
 					<a href="tour-renaca.php" class="renaca" title="Reñaca">Reñaca</a>

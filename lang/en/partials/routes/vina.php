@@ -9,7 +9,7 @@
 		<article class="tour-description">
 			<?php include_once "partials/routes/navbar.php"; ?>
 			<div class="col-xs-12 col-sm-8 col-md-7 col-md-offset-1">
-				<div class="spacer-25"></div>
+				<h1><span class="lightblue">City tour Viña del Mar</span></h1>
 				<img src="/img/vina.jpg" class="img-thumbnail img-responsive">
 				<div class="spacer-25"></div>
 				<p>Starting from Casino Enjoy in Viña del Mar, the tour begins with a brief lesson on bicycle
