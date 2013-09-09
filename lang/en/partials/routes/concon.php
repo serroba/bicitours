@@ -9,9 +9,8 @@
 		<article class="tour-description">
 			<?php include_once "partials/routes/navbar.php"; ?>
 			<div class="col-xs-12 col-sm-8 col-md-7 col-md-offset-1">
-				<div class="spacer-25"></div>
-				<img src="/img/concon.jpg" class="img-thumbnail img-responsive">
 				<h1><span class="lightblue">Route Viña - Concón</span></h1>
+				<img src="/img/concon.jpg" class="img-thumbnail img-responsive">
 				<p>Starting from Casino Enjoy in Viña Del Mar, the tour begins with a 
 					brief lesson on bicycle safe riding. Then we will head north through 
 					Avenida San Martín making our first stop at the old docks in Muelle 
