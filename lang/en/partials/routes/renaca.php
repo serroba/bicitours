@@ -53,7 +53,7 @@
 			</div>
 		</article>
 
-		<?php require_once "contact.php"; ?>
+		<?php require_once "partials/routes/contact.php"; ?>
 
 	</div>
 </section>
