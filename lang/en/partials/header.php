@@ -7,4 +7,12 @@
 			<img src="/img/bannertop.png" class="img-responsive" alt="Enjoy tours in Valparaiso Region"/>
 		</div>
 	</div>
+	<div class="flags">
+		<a href="./lang/en/">
+			<img src="/img/blank.gif" class="flag flag-us" alt="United States" />
+		</a>
+		<a href="/">
+			<img src="/img/blank.gif" class="flag flag-cl" alt="Chile" />
+		</a>
+	</div>
 </header>

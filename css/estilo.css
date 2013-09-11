@@ -18,9 +18,26 @@ fondo {
 #header_main {
 	
 	margin-top:20px;
+	position: relative;
+}
+#header_main .flags{
+	position: absolute;
+	top: 0;
+	right: 10px;
+	width: 50px;
+}
+#header_main a{
+	text-decoration: none;
+}
+.flag {
+	width: 16px;
+	height: 11px;
+	background:url('/img/flags.png') no-repeat
 }
 
-
+.flag.flag-br {background-position: -16px 0}
+.flag.flag-cl {background-position: 0 -11px}
+.flag.flag-us {background-position: -16px -11px}
 /********************************************************************menu principal  */
 
 #menu_main  {

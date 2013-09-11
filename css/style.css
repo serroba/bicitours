@@ -13,7 +13,9 @@ body > section.container{
 section header ul{
 	margin-top:5px;
 }
-
+header{
+	position: relative;
+}
 header.main-navbar .nav > li> a{
 	color: #fff;
 }
@@ -26,6 +28,12 @@ header.main-navbar .navbar-default{
 header.main-navbar .navbar-default .navbar-brand{
 	color: white;
 	font-weight: bold;
+}
+header .flags{
+	position: absolute;
+	top: 0;
+	right: 10px;
+	width: 50px;
 }
 .maps iframe{
 	height: 250px; 
@@ -105,6 +113,15 @@ a.fb{
 .block{
     padding: 10px;
 }
+.flag {
+	width: 16px;
+	height: 11px;
+	background:url('/img/flags.png') no-repeat
+}
+
+.flag.flag-br {background-position: -16px 0}
+.flag.flag-cl {background-position: 0 -11px}
+.flag.flag-us {background-position: -16px -11px}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	header.navbar{
