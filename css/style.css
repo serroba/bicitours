@@ -73,7 +73,6 @@ address, address .email{
 }
 .orange{
 	color: #F60;
-	background-color: #F60;
 }
 .cyan{
 	color: #33CCD6;
@@ -82,7 +81,7 @@ address, address .email{
 	color: #F30;
 }
 .pink{
-  color: #FF0066;
+	color: #FF0066;
 }
 .spacer-5 { height: 5px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 .spacer-10 { height: 10px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
@@ -96,25 +95,34 @@ address, address .email{
 .spacer-50 { height: 50px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 .spacer-100 { height: 100px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 .spacer-200 { height: 200px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
-
+a.fb{
+	background: url('/img/facebook_icon.png') center center transparent;
+	display: block;
+	height: 50px;
+	margin: 50px auto;
+	width: 50px;
+}
+.block{
+    padding: 10px;
+}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	header.navbar{
 		padding: 0 10px;
 	}
-  .maps .laguna{
-    margin: 0 auto;
-    max-width: 940px;
-  }
-  .block{
-    padding: 20px;
-  }
-  .rent .bike{
-    margin: 0 auto;
-    max-width: 700px;
-  }
-  .rent .block ul{
-  }
+	.maps .laguna{
+		margin: 0 auto;
+		max-width: 940px;
+	}
+	.block{
+		padding: 20px;
+	}
+	.rent .bike{
+		margin: 0 auto;
+		max-width: 700px;
+	}
+	.rent .block ul{
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */

@@ -20,12 +20,12 @@
 
     </head>
     <body>
-		
-        <?php include_once "partials/header.php"?>
+
+		<?php include_once "partials/header.php" ?>
         <section class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <?php include_once "partials/header-navbar.php"?>
+					<?php include_once "partials/header-navbar.php" ?>
                     <div class="carousel slide" id="carousel-464101">
                         <ol class="carousel-indicators">
                             <li class="active" data-slide-to="0" data-target="#carousel-464101">
@@ -76,52 +76,63 @@
                     </h1>
                     <h3 class="text-center lightgreen">Our tours include</h3>
                     <div class="row">
-                        <div class="control-group">
-                            <div class="col-xs-6 col-sm-3 text-center">
-                                <div class="thumbnail">
-                                    <img src="/img/bike1.png" class="img-responsive ">
-                                    <div class="caption">
-                                        <h5 class="orange"><strong>Mountain Bike</strong></h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-3 text-center">
-                                <div class="thumbnail">
-                                    <img src="/img/casco.png" class="img-responsive">
-                                    <div class="caption">
-                                        <h5 class="orange"><strong>Helmet</strong></h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-3 text-center">
-                                <div class="thumbnail">
-                                    <img src="/img/botella.png" class="img-responsive">
-                                    <div class="caption">
-                                        <h5 class="orange"><strong>Bottled water</strong></h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-6 col-sm-3 text-center">
-                                <div class="thumbnail">
-                                    <img src="/img/polera.png" class="img-responsive">
-                                    <div class="caption">
-                                        <h5 class="orange"><strong>Bilingual Guide</strong></h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+						<div class="block">
+							<div class="control-group">
+								<div class="col-xs-6 col-sm-3 text-center">
+									<div class="thumbnail">
+										<img src="/img/bike1.png" class="img-responsive ">
+										<div class="caption">
+											<h5 class="orange"><strong>Mountain Bike</strong></h5>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-3 text-center">
+									<div class="thumbnail">
+										<img src="/img/casco.png" class="img-responsive">
+										<div class="caption">
+											<h5 class="orange"><strong>Helmet</strong></h5>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-3 text-center">
+									<div class="thumbnail">
+										<img src="/img/botella.png" class="img-responsive">
+										<div class="caption">
+											<h5 class="orange"><strong>Bottled water</strong></h5>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-6 col-sm-3 text-center">
+									<div class="thumbnail">
+										<img src="/img/polera.png" class="img-responsive">
+										<div class="caption">
+											<h5 class="orange"><strong>Bilingual Guide</strong></h5>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
                     </div>
                     <div class="spacer-10"></div>
                     <article class="row">
-                        <div class="col-md-6">
-                            <p>
-                                Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-                            </p>
+                        <div class="col-xs-12 col-md-6">
+							<div class="block">
+								<h2><span class="red">About us:</span></h2>
+								<p>
+									We are a Tourism Agency specialized on cycling tours in the cities of Viña del mar, 
+									Valparaíso, Reñaca and Concón. We have tours which last from 2 hours up to 5 hours. 
+									These tours are good for beginners as well as for experts. We provide a professional, 
+									entertaining and ecologic service. Enjoy one of the most beautiful coast lines in 
+									Chile while you breathe sea air on two wheels.
+								</p>
+							</div>
                         </div>
-                        <div class="col-md-6">
-                            <p>
-                                Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
-                            </p>
+                        <div class="col-xs-12 col-md-6">
+							<div class="block text-center">
+								<h3><span class="red">Find us as well in Facebook</span></h3>
+								<a href="http://www.facebook.com/bici.tours" class="fb"></a>
+								<div id="fb" class="fb-subscribe" data-href="https://www.facebook.com/bici.tours" data-show-faces="true" data-font="arial" data-width="300"></div>
+							</div>
                         </div>
                     </article>
                 </div>
@@ -150,6 +161,17 @@
                 </div>
             </div>
         </footer>
+		<!--facebook-->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id))
+          return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script> 
     </body>
 </html>
 <script src="/js/jquery.min.js"></script>
