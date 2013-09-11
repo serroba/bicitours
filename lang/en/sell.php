@@ -1,4 +1,4 @@
-<?php // var_dump($_SERVER);die;?>
+<?php // var_dump($_SERVER);die; ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -22,38 +22,16 @@
     </head>
     <body>
         <?php include_once "partials/header.php" ?>
-        <?php
-			switch ($_GET['t']) {
-				case 'vina':
-					include_once "partials/routes/vina.php";
-					break;
-				case 'concon':
-					include_once "partials/routes/concon.php";
-					break;
-                case 'renaca':
-					include_once "partials/routes/renaca.php";
-					break;
-                case 'valparaiso-baron':
-					include_once "partials/routes/valparaiso-baron.php";
-					break;
-                case 'valparaiso-puerto':
-					include_once "partials/routes/valparaiso-puerto.php";
-					break;
-                case 'valparaiso-torpederas':
-					include_once "partials/routes/valparaiso-torperderas.php";
-					break;
-                case 'renaca-nightly':
-					include_once "partials/routes/renaca-nightly.php";
-					break;
-                case 'laguna-la-luz':
-					include_once "partials/routes/laguna-la-luz.php";
-					break;
-				default:
-					include_once "partials/routes/vina.php";
-					break;
-			}
-		?>
-		<?php include_once "partials/footer.php"?>
+
+        <section class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <?php include_once "partials/header-navbar.php" ?>
+                </div>
+            </div>
+        </section>
+
+        <?php include_once "partials/footer.php" ?>
     </body>
 </html>
 <script src="/js/jquery.min.js"></script>

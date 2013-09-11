@@ -18,22 +18,22 @@
 					<a href="tours.php?t=concon" class="concon" title="Concón">Concón</a>
 				</li>
 				<li>
-					<a href="tour-renaca.php" class="renaca" title="Reñaca">Reñaca</a>
+					<a href="tours.php?t=renaca" class="renaca" title="Reñaca">Reñaca</a>
 				</li>
 				<li>
-					<a href="tour-valparaiso-baron.php" class="valparaiso" title="Valparaíso Barón">Barón</a>
+					<a href="tours.php?t=valparaiso-baron" class="valparaiso" title="Valparaíso Barón">Barón</a>
 				</li>
 				<li>
-					<a href="tour-valparaiso-puerto.php" class="puerto" title="Valparaíso Puerto">Puerto</a>
+					<a href="tours.php?t=valparaiso-puerto" class="puerto" title="Valparaíso Puerto">Puerto</a>
 				</li>
 				<li>
-					<a href="tour-valparaiso-torpederas.php" class="torpederas" title="Valparaiso Torpederas">Torpederas</a>
+					<a href="tours.php?t=valparaiso-torpederas" class="torpederas" title="Valparaiso Torpederas">Torpederas</a>
 				</li>
 				<li>
-					<a href="tour-renaca-nocturno.php" class="nocturno" title="Reñaca nightly">Reñaca Nightly</a>
+					<a href="tours.php?t=renaca-nightly" class="nocturno" title="Reñaca nightly">Reñaca Nightly</a>
 				</li>
 				<li>
-					<a href="tour-laguna-la-luz.php" class="laguna" title="Laguna La Luz">Laguna La Luz</a>
+					<a href="tours.php?t=laguna-la-luz" class="laguna" title="Laguna La Luz">Laguna La Luz</a>
 				</li>
 			</ul>
 		</div>

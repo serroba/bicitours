@@ -14,17 +14,17 @@
 				<li <?php if(preg_match('/tours.php/', $_SERVER['SCRIPT_NAME'])) echo "class='active'"?>>
 					<a href="tours.php">Tours</a>
 				</li>
-				<li>
-					<a href="#">Rent</a>
+				<li <?php if(preg_match('/rent.php/', $_SERVER['SCRIPT_NAME'])) echo "class='active'"?>>
+					<a href="rent.php">Rent</a>
 				</li>
-				<li>
-					<a href="#">Bike sells</a>
+				<li <?php if(preg_match('/sell.php/', $_SERVER['SCRIPT_NAME'])) echo "class='active'"?>>
+					<a href="sell.php">Bike sells</a>
 				</li>
-				<li>
-					<a href="#">Reservation</a>
+				<li <?php if(preg_match('/reservation.php/', $_SERVER['SCRIPT_NAME'])) echo "class='active'"?>>
+					<a href="reservation.php">Reservation</a>
 				</li>
-				<li>
-					<a href="#">Contact us</a>
+				<li <?php if(preg_match('/contact.php/', $_SERVER['SCRIPT_NAME'])) echo "class='active'"?>>
+					<a href="contact.php">Contact us</a>
 				</li>
 
 			</ul>
