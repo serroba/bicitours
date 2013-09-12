@@ -9,10 +9,14 @@
 	</div>
 	<div class="flags">
 		<a href="./lang/en/">
-			<img src="/img/blank.gif" class="flag flag-us" alt="United States" />
+            <span class="badge ">
+                En <img src="/img/blank.gif" class="flag flag-us" alt="United States" />
+            </span>
 		</a>
 		<a href="/">
-			<img src="/img/blank.gif" class="flag flag-cl" alt="Chile" />
+            <span class="badge ">
+                Es <img src="/img/blank.gif" class="flag flag-cl" alt="Chile" />
+            </span>
 		</a>
 	</div>
 </header>

@@ -33,7 +33,7 @@ header .flags{
 	position: absolute;
 	top: 0;
 	right: 10px;
-	width: 50px;
+	width: 150px;
 }
 .maps iframe{
 	height: 250px; 
@@ -114,14 +114,14 @@ a.fb{
     padding: 10px;
 }
 .flag {
-	width: 16px;
-	height: 11px;
+	width: 25px;
+	height: 15px;
 	background:url('/img/flags.png') no-repeat
 }
 
-.flag.flag-br {background-position: -16px 0}
-.flag.flag-cl {background-position: 0 -11px}
-.flag.flag-us {background-position: -16px -11px}
+.flag.flag-br {background-position: -25px 0}
+.flag.flag-cl {background-position: 0 -15px}
+.flag.flag-us {background-position: -25px -15px}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	header.navbar{
