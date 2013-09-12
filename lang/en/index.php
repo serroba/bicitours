@@ -39,34 +39,19 @@
                             <div class="item active">
                                 <img alt="" src="/img/portada1.jpg" />
                                 <div class="carousel-caption">
-                                    <h4>
-                                        First Thumbnail label
-                                    </h4>
-                                    <p>
-                                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                                    </p>
+                                    <h4><strong>Promoting women's sport</strong></h4>
                                 </div>
                             </div>
                             <div class="item">
                                 <img alt="" src="/img/portada2.jpg" />
                                 <div class="carousel-caption">
-                                    <h4>
-                                        Second Thumbnail label
-                                    </h4>
-                                    <p>
-                                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                                    </p>
+                                    <h4><strong>Disconnect from the city with our tour Laguna la Luz</strong></h4>
                                 </div>
                             </div>
                             <div class="item">
                                 <img alt="" src="/img/portada3.jpg" />
                                 <div class="carousel-caption">
-                                    <h4>
-                                        Third Thumbnail label
-                                    </h4>
-                                    <p>
-                                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                                    </p>
+                                    <h4><strong>Viña del Mar, the charming city</strong></h4>
                                 </div>
                             </div>
                         </div> <a data-slide="prev" href="#carousel-464101" class="left carousel-control">‹</a> <a data-slide="next" href="#carousel-464101" class="right carousel-control">›</a>
@@ -130,7 +115,10 @@
                         <div class="col-xs-12 col-md-6">
 							<div class="block text-center">
 								<h3><span class="red">Find us as well in Facebook</span></h3>
-								<a href="http://www.facebook.com/bici.tours" class="fb"></a>
+                                <div>
+                                    <a href="http://www.facebook.com/bici.tours" class="fb" title="Facebook"></a>
+                                    <a href="http://www.tripadvisor.com.ar/Attraction_Review-g295425-d3731452-Reviews-Bicitours-Vina_del_Mar_Valparaiso_Region.html" class="t-a" title="Tripadvisor"></a>
+                                </div>
 								<div id="fb" class="fb-subscribe" data-href="https://www.facebook.com/bici.tours" data-show-faces="true" data-font="arial" data-width="300"></div>
 							</div>
                         </div>

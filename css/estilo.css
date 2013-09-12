@@ -21,23 +21,24 @@ fondo {
 	position: relative;
 }
 #header_main .flags{
+  font-size: 12px;
 	position: absolute;
 	top: 0;
 	right: 10px;
-	width: 50px;
+	width: 150px;
 }
 #header_main a{
 	text-decoration: none;
 }
 .flag {
-	width: 16px;
-	height: 11px;
+	width: 25px;
+	height: 15px;
 	background:url('/img/flags.png') no-repeat
 }
 
-.flag.flag-br {background-position: -16px 0}
-.flag.flag-cl {background-position: 0 -11px}
-.flag.flag-us {background-position: -16px -11px}
+.flag.flag-br {background-position: -25px 0}
+.flag.flag-cl {background-position: 0 -15px}
+.flag.flag-us {background-position: -25px -15px}
 /********************************************************************menu principal  */
 
 #menu_main  {

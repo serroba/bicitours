@@ -105,10 +105,18 @@ address, address .email{
 .spacer-200 { height: 200px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 a.fb{
 	background: url('/img/facebook_icon.png') center center transparent;
-	display: block;
+	display: inline-block;
 	height: 50px;
 	margin: 50px auto;
 	width: 50px;
+}
+a.t-a{
+  background: url('/img/trip.png') center center transparent;
+  background-size: contain;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  margin: 25px auto;
 }
 .block{
     padding: 10px;
