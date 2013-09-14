@@ -8,12 +8,12 @@
 		</div>
 	</div>
 	<div class="flags">
-		<a href="./lang/en/">
+		<a href="./">
             <span class="badge ">
                 En <img src="/img/blank.gif" class="flag flag-us" alt="United States" />
             </span>
 		</a>
-		<a href="/">
+		<a href="../../">
             <span class="badge ">
                 Es <img src="/img/blank.gif" class="flag flag-cl" alt="Chile" />
             </span>
