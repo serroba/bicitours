@@ -31,12 +31,12 @@
         </div>
       </div>
       <div class="flags">
-        <a href="lang/en/">
+        <a href="./">
           <span class="badge ">
             En <img src="/img/blank.gif" class="flag flag-us" alt="United States" />
           </span>
         </a>
-        <a href="lang/es/">
+        <a href="../../">
           <span class="badge ">
             Es <img src="/img/blank.gif" class="flag flag-cl" alt="Chile" />
           </span>
@@ -59,11 +59,11 @@
               <div class="collapse navbar-collapse bs-navbar-collapse orange">
                 <ul class="nav nav-pills nav-justified">
                   <li><a href="./">Inicio</a></li>
-                  <li><a href="lang/es/tours.php">Tours</a></li>
-                  <li><a href="lang/es/rent.php">Arriendo</a></li>
-                  <li><a href="lang/es/sell.php">Venta de bicicletas</a></li>
-                  <li><a href="lang/es/reservation.php">Reservas</a></li>
-                  <li><a href="lang/es/contact.php">Contacto</a></li>
+                  <li><a href="tours.php">Tours</a></li>
+                  <li><a href="rent.php">Arriendo</a></li>
+                  <li><a href="sell.php">Venta de bicicletas</a></li>
+                  <li><a href="reservation.php">Reservas</a></li>
+                  <li><a href="contact.php">Contacto</a></li>
                 </ul>
               </div>
             </nav>

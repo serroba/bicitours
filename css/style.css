@@ -1,5 +1,4 @@
 body{
-	background-image: url('/img/bg2.png');
 	background-color: #fafafa;
 }
 body > header, body > section.container{
@@ -34,7 +33,7 @@ header .flags{
 	position: absolute;
 	top: 0;
 	right: 0px;
-	width: 120px;
+	width: 125px;
 }
 .maps iframe{
 	height: 250px; 
@@ -108,19 +107,19 @@ address, address .email{
 .spacer-100 { height: 100px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 .spacer-200 { height: 200px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 a.fb{
-	background: url('/img/facebook_icon.png') center center transparent;
+	background: url('/img/facebook_icon.png') center top no-repeat transparent;
 	display: inline-block;
 	height: 50px;
 	margin: 50px auto;
 	width: 50px;
 }
 a.t-a{
-  background: url('/img/trip.png') center center transparent;
+  background: url('http://www.tripadvisor.com/img/cdsi/partner/ta-large-11418-0.gif') center center transparent;
   background-size: contain;
   display: inline-block;
-  height: 100px;
-  width: 100px;
-  margin: 25px auto;
+  height: 29px;
+  width: 158px;
+  margin: 60px auto;
 }
 .block{
     padding: 10px;
