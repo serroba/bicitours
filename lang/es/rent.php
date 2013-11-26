@@ -51,12 +51,12 @@
                         <ul class="list-group">
                             <li class="list-group-item"><strong>PRECIOS:</strong></li>
                             <li class="list-group-item"><span class="cyan">2 Horas: $5.000</span></li>
-                            <li class="list-group-item"><span class="cyan">4 Horas: $10.000</span></li>
+                            <li class="list-group-item"><span class="cyan">Hora adicional: $2.500</span></li>
                             <li class="list-group-item"><span class="cyan">8 Horas: $18.000</span></li>
                         </ul>
                         <ul class="list-group">
                             <li class="list-group-item"><strong>CONDICIONES:</strong></li>
-                            <li class="list-group-item"><span class="cyan">Entrega de carnet de identidad, otro documento legal de identificación o entrega en garantía de $50.000.</span></li>
+                            <li class="list-group-item"><span class="cyan">Entrega de carnet de identidad, otro documento legal de identificación o entrega en garantía de $150.000.</span></li>
                             <li class="list-group-item"><span class="cyan">Firmar documento de responsabilidad.</span></li>
                         </ul>
                     </div>
